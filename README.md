@@ -8,8 +8,8 @@ Act as a retail analyst helping BigMart understand what drives sales performance
 ## Dataset
 - **Source:** BigMart Sales dataset (Kaggle)
 - **Size:** 8,523 rows × 12 columns
-- **Local copy(RAW):** Dataset/Bigmart_sales_Raw_data.csv
-- **Local copy(cleaned)**:
+- **Original (uncleaned):** [Dataset/Bigmart_sales_data.csv](Dataset/Bigmart_sales_data.csv)
+- **Cleaned dataset:** [Dataset/bigmart_cleaned.csv](Dataset/bigmart_cleaned.csv)
 | Column | Description |
 |---|---|
 | `Item_Identifier` | Unique product ID |
