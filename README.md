@@ -124,19 +124,64 @@ Data cleaned independently in Power Query (M), mirroring the Python logic.
 ---
 
 ## 📁 Repository Structure
+
+```
 bigmart-sales-analysis/
 ├── Dataset/
-│ ├── Bigmart_sales_data.csv
-│ └── bigmart_cleaned.csv
+│   ├── Bigmart_sales_Raw_data.csv
+│   └── bigmart_cleaned_dataset.csv
 ├── Python/
-│ ├── BigMart_EDA_Cleaning.ipynb
-│ └── bigmart_analysis.py
+│   ├── BigMart_EDA_Cleaning.ipynb
+│   └── bigmart_analysis.py
 ├── Sql/
-│ └── bigmart_sql_schema_and_queries.sql
+│   └── bigmart_sql_schema_and_queries.sql
 ├── Powerbi/
-│ └── BigMart_PowerBI_Dashboard.pbix
+│   └── BigMart_PowerBI_Dashboard.pbix
 ├── Excel/
-│ └── BigMart_Sheets_PivotTables.xlsx
-├── screenshots/
-│ 
+│   └── BigMart_Sheets_PivotTables.xlsx
+├── Screenshots/
+│   ├── B_M_S_Overview.png
+│   ├── B_M_S_Outlet_Performance.png
+│   ├── B_M_S_Product_Performance.png
+│   └── B_M_S_Deep_Dive.png
 └── README.md
+```
+
+## 📷 Dashboard Previews
+
+**Power BI**
+
+| Overview | Outlet Performance |
+|---|---|
+| ![Overview](Screenshots/B_M_S_Overview.png) | ![Outlet Performance](Screenshots/B_M_S_Outlet_Performance.png) |
+
+| Product Performance | Deep Dive |
+|---|---|
+| ![Product Performance](Screenshots/B_M_S_Product_Performance.png) | ![Deep Dive](Screenshots/B_M_S_Deep_Dive.png) |
+
+## ▶️ How to Reproduce
+
+**Python**
+```bash
+pip install pandas numpy matplotlib seaborn
+python bigmart_analysis.py
+# or open Python/BigMart_EDA_Cleaning.ipynb in Jupyter/Colab
+```
+
+**SQL**
+1. Import `bigmart_cleaned_dataset.csv` into MySQL Workbench as a staging table via the Table Data Import Wizard.
+2. Run `Sql/bigmart_sql_schema_and_queries.sql` to build the schema and run all queries.
+
+**Power BI**
+Open `Powerbi/BigMart_PowerBI_Dashboard.pbix` in Power BI Desktop. Refresh by re-pointing Power Query to `Bigmart_sales_Raw_data.csv`.
+
+---
+
+## 🧠 Skills Demonstrated
+- Data cleaning: missing values, inconsistent categories, disguised missing values (pandas, Power Query/M, business-logic fills)
+- Exploratory data analysis and correlation analysis
+- Relational database design (normalization) and advanced SQL (joins, subqueries, CTEs, window functions)
+- Interactive BI dashboard design (multi-page navigation, slicers, DAX, consistent theming)
+- Cross-tool validation — proving identical results across four independent tools
+
+---
