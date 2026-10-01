@@ -56,7 +56,7 @@ Act as a retail analyst helping BigMart understand what drives sales performance
 **Overall KPIs & Cross-Cutting Analysis**
 
 9. Total sales & average sales per outlet
-10. Best outlet type + item type combination; top-outlet sales concentration (Pareto)
+10. Best outlet type  and  item type combination; top-outlet sales concentration 
 11. Average item MRP across the catalog
 12. Total unique items and outlets
 13. % of revenue from the top 20% of items (Pareto)
@@ -78,6 +78,7 @@ Act as a retail analyst helping BigMart understand what drives sales performance
 | Top 20% items' share of sales | 38.51% |
 
 **Notable findings:**
+
 - **Supermarket Type1** dominates total sales broadly across almost every item category, not on one standout product line.
 - **Outlet age** shows no consistent trend — a sharp dip at age 15 is explained by outlet type (Grocery Store), not age itself.
 - **Item visibility has a mild negative correlation with sales** — challenges the common assumption that more shelf visibility drives more sales.
