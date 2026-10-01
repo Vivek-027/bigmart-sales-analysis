@@ -38,7 +38,7 @@ Act as a retail analyst helping BigMart understand what drives sales performance
 
 ---
 
-## ❓ Business Questions & KPIs
+##  Business Questions & KPIs
 
 **Outlet Performance**
 1. Which outlet types generate the most sales?
@@ -47,12 +47,14 @@ Act as a retail analyst helping BigMart understand what drives sales performance
 4. Do older outlets outperform newer ones?
 
 **Product Performance**
+
 5. Which item types sell the most vs. least?
 6. Does item visibility correlate with higher sales?
 7. Does price (MRP) correlate with sales?
 8. Does fat content impact sales?
 
 **Overall KPIs & Cross-Cutting Analysis**
+
 9. Total sales & average sales per outlet
 10. Best outlet type + item type combination; top-outlet sales concentration (Pareto)
 11. Average item MRP across the catalog
