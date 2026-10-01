@@ -4,6 +4,7 @@ An end-to-end data analytics project on the **BigMart Sales dataset**, solving t
 ---
 ##  Project Goal
 Act as a retail analyst helping BigMart understand what drives sales performance across items and outlets, to support decisions on assortment, pricing, and store strategy.
+
 ---
 ## 🗂️ Dataset
 - **Source:** BigMart Sales dataset (Kaggle)
