@@ -1,6 +1,7 @@
-# BigMart Sales Analysis — End-to-End Data Analytics Project
+## BigMart Sales Analysis — End-to-End Data Analytics Project
 
 An end-to-end data analytics project on the **BigMart Sales dataset**, solving the same 13 business questions and KPIs independently in **four tools** — Python, SQL, Power BI, and Excel/Google Sheets — with results cross-validated to match exactly across all of them.
+
 ---
 ##  Project Goal
 Act as a retail analyst helping BigMart understand what drives sales performance across items and outlets, to support decisions on assortment, pricing, and store strategy.
@@ -11,6 +12,9 @@ Act as a retail analyst helping BigMart understand what drives sales performance
 - **Size:** 8,523 rows × 12 columns
 - **Original (uncleaned):** [Dataset/Bigmart_sales_Raw_data.csv](Dataset/Bigmart_sales_Raw_data.csv)
 - **Cleaned dataset:** [Dataset/bigmart_cleaned_dataset.csv](Dataset/bigmart_cleaned_dataset.csv)
+
+---
+
 | Column | Description |
 |---|---|
 | `Item_Identifier` | Unique product ID |
