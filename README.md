@@ -7,7 +7,7 @@ An end-to-end data analytics project on the **BigMart Sales dataset**, solving t
 Act as a retail analyst helping BigMart understand what drives sales performance across items and outlets, to support decisions on assortment, pricing, and store strategy.
 
 ---
-## 🗂️ Dataset
+## Dataset
 - **Source:** BigMart Sales dataset (Kaggle)
 - **Size:** 8,523 rows × 12 columns
 - **Original (uncleaned):** [Dataset/Bigmart_sales_Raw_data.csv](Dataset/Bigmart_sales_Raw_data.csv)
@@ -30,7 +30,7 @@ Act as a retail analyst helping BigMart understand what drives sales performance
 | `Outlet_Type` | Grocery Store / Supermarket Type1 / Type2 / Type3 |
 | `Item_Outlet_Sales` | Sales of the product in that outlet (target variable) |
 
-**Data quality issues handled during cleaning:**
+## Data quality issues handled during cleaning:
 - Inconsistent `Item_Fat_Content` labels
 - `Item_Weight` missing in ~17% of rows
 - `Outlet_Size` missing in ~28% of rows
