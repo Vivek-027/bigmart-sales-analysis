@@ -63,7 +63,7 @@ Act as a retail analyst helping BigMart understand what drives sales performance
 
 ---
 
-## 🔑 Key Results (identical across all four tools)
+##  Key Results (identical across all four tools)
 
 | Metric | Value |
 |---|---|
@@ -87,7 +87,7 @@ Act as a retail analyst helping BigMart understand what drives sales performance
 
 ---
 
-## 🛠️ Tools & What Each Contributed
+##  Tools & What Each Contributed
 
 | Tool | Role |
 |---|---|
@@ -123,7 +123,7 @@ Data cleaned independently in Power Query (M), mirroring the Python logic.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 bigmart-sales-analysis/
@@ -131,14 +131,13 @@ bigmart-sales-analysis/
 │   ├── Bigmart_sales_Raw_data.csv
 │   └── bigmart_cleaned_dataset.csv
 ├── Python/
-│   ├── BigMart_EDA_Cleaning.ipynb
-│   └── bigmart_analysis.py
+│   └── Big_Mart_sales.ipynb
 ├── Sql/
-│   └── bigmart_sql_schema_and_queries.sql
+│   └── big_mart_sales.sql
 ├── Powerbi/
-│   └── BigMart_PowerBI_Dashboard.pbix
+│   └── Big_mart_sales.pbix
 ├── Excel/
-│   └── BigMart_Sheets_PivotTables.xlsx
+│   └── BigMart_Sales_Analysis.xlsx
 ├── Screenshots/
 │   ├── B_M_S_Overview.png
 │   ├── B_M_S_Outlet_Performance.png
@@ -147,7 +146,7 @@ bigmart-sales-analysis/
 └── README.md
 ```
 
-## 📷 Dashboard Previews
+##  Dashboard Previews
 
 **Power BI**
 
@@ -162,20 +161,17 @@ bigmart-sales-analysis/
 ## ▶️ How to Reproduce
 
 **Python**
-```bash
-pip install pandas numpy matplotlib seaborn
-python bigmart_analysis.py
-# or open Python/BigMart_EDA_Cleaning.ipynb in Jupyter/Colab
-```
+Open `Python/Big_Mart_sales.ipynb` in Jupyter or Google Colab and run all cells.
 
 **SQL**
-1. Import `bigmart_cleaned_dataset.csv` into MySQL Workbench as a staging table via the Table Data Import Wizard.
-2. Run `Sql/bigmart_sql_schema_and_queries.sql` to build the schema and run all queries.
+1. Import `Dataset/bigmart_cleaned_dataset.csv` into MySQL Workbench as a staging table via the Table Data Import Wizard.
+2. Run `Sql/big_mart_sales.sql` to build the schema and execute all queries.
 
 **Power BI**
-Open `Powerbi/BigMart_PowerBI_Dashboard.pbix` in Power BI Desktop. Refresh by re-pointing Power Query to `Bigmart_sales_Raw_data.csv`.
+Open `Powerbi/Big_mart_sales.pbix` in Power BI Desktop. Refresh by re-pointing Power Query to `Dataset/Bigmart_sales_Raw_data.csv`.
 
----
+**Excel**
+Open `Excel/BigMart_Sales_Analysis.xlsx` — pivot tables and the Dashboard sheet will recalculate automatically if the underlying data range is updated.
 
 ## 🧠 Skills Demonstrated
 - Data cleaning: missing values, inconsistent categories, disguised missing values (pandas, Power Query/M, business-logic fills)
