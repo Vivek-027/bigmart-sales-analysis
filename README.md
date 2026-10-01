@@ -124,3 +124,19 @@ Data cleaned independently in Power Query (M), mirroring the Python logic.
 ---
 
 ## 📁 Repository Structure
+bigmart-sales-analysis/
+├── Dataset/
+│ ├── Bigmart_sales_data.csv
+│ └── bigmart_cleaned.csv
+├── Python/
+│ ├── BigMart_EDA_Cleaning.ipynb
+│ └── bigmart_analysis.py
+├── Sql/
+│ └── bigmart_sql_schema_and_queries.sql
+├── Powerbi/
+│ └── BigMart_PowerBI_Dashboard.pbix
+├── Excel/
+│ └── BigMart_Sheets_PivotTables.xlsx
+├── screenshots/
+│ 
+└── README.md
