@@ -5,11 +5,11 @@ An end-to-end data analytics project on the **BigMart Sales dataset**, solving t
 ##  Project Goal
 Act as a retail analyst helping BigMart understand what drives sales performance across items and outlets, to support decisions on assortment, pricing, and store strategy.
 ---
-## Dataset
+## 🗂️ Dataset
 - **Source:** BigMart Sales dataset (Kaggle)
 - **Size:** 8,523 rows × 12 columns
-- **Original (uncleaned):** [Dataset/Bigmart_sales_data.csv](Dataset/Bigmart_sales_data.csv)
-- **Cleaned dataset:** [Dataset/bigmart_cleaned.csv](Dataset/bigmart_cleaned.csv)
+- **Original (uncleaned):** [Dataset/Bigmart_sales_Raw_data.csv](Dataset/Bigmart_sales_Raw_data.csv)
+- **Cleaned dataset:** [Dataset/bigmart_cleaned_dataset.csv](Dataset/bigmart_cleaned_dataset.csv)
 | Column | Description |
 |---|---|
 | `Item_Identifier` | Unique product ID |
